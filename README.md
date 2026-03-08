@@ -42,11 +42,11 @@ This project demonstrates a role-based healthcare workflow system built with mod
 
 # Technologies Used
 
-Laravel – Backend framework
-PHP – Server-side programming
-MySQL – Database management
-HTML / CSS / JavaScript – Frontend interface
-Blade Templates – Laravel templating engine
+- Laravel – Backend framework
+- PHP – Server-side programming
+- MySQL – Database management
+- HTML / CSS / JavaScript – Frontend interface
+- Blade Templates – Laravel templating engine
 
 ## Project Objectives
 
