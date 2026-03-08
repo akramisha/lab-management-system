@@ -74,9 +74,9 @@ Generate application key
 
 Configure the database in .env
 
-DB_DATABASE=lab_management
-DB_USERNAME=root
-DB_PASSWORD=
+- DB_DATABASE=lab_management
+- DB_USERNAME=root
+- DB_PASSWORD=
 
 Run migrations
 `php artisan migrate`
