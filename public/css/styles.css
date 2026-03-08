@@ -1,0 +1,308 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header{
+    background-color: #35424a;
+}
+/* nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li{
+    margin: 0 15px;
+}
+nav ul li a, .btn{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 14px 15px;
+    display: block;
+    font-size: 11px;
+}
+nav ul li a:hover, .btn:hover{
+    color: white;
+    text-decoration: underline;
+} */
+
+.task-btn{
+    background-color: #35424a;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.task-btn:hover{
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* -------------------------------------------- */
+.task-manage{
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #333333;
+    text-decoration: none;
+}
+.task-manage:hover{
+    color: white;
+    background-color: #333333;
+    text-decoration: none;
+
+}
+
+.tasks-manage{
+    max-width: 800px;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    border-color: #333333;
+
+    color: white;
+    background-color: #333333;
+    text-decoration: none;
+}
+.tasks-manage:hover{
+    color: #333333;
+    background-color: #ffffff;
+    text-decoration: none;
+    border: 2px solid #333333;
+
+}
+/* --------------------------------------------------------- */
+.order-btn {
+    background-color: #333333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: 600;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .order-btn:hover {
+    background-color: #35424a;
+    transform: translateY(-3px);
+    color: white;
+  }
+
+  /* --------------------------------------------------- */
+  .custom-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.custom-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.custom-header h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.custom-add-btn {
+    background-color: #1D4ED8;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.custom-add-btn:hover {
+    background-color: #2563EB;
+}
+
+.custom-alert {
+    background-color: #DCFCE7;
+    color: #166534;
+    padding: 10px 15px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+.custom-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.custom-card {
+    background-color: #fff;
+    border: 1px solid #E5E7EB;
+    border-radius: 10px;
+    padding: 15px;
+    width: 220px;
+    position: relative;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.custom-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.custom-card-buttons {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    gap: 5px;
+}
+
+.custom-edit-btn,
+.custom-delete-btn {
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.custom-edit-btn {
+    background-color: #3B82F6;
+    color: white;
+}
+
+.custom-edit-btn:hover {
+    background-color: #2563EB;
+}
+
+.custom-delete-btn {
+    background-color: #EF4444;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.custom-delete-btn:hover {
+    background-color: #DC2626;
+}
+
+.custom-card-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 35px; /* to avoid buttons */
+    margin-bottom: 5px;
+}
+
+.custom-card-price {
+    font-size: 14px;
+    font-weight: 600;
+    color: #16A34A;
+    margin-bottom: 5px;
+}
+
+.custom-card-category {
+    font-size: 12px;
+    background-color: #E0E7FF;
+    color: #3730A3;
+    padding: 2px 6px;
+    border-radius: 4px;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.custom-card-stock,
+.custom-card-size {
+    font-size: 12px;
+    color: #374151;
+}
+/* ------------------------------------------------- */
+
+.btn-edit{
+    background-color: #35424a;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.btn-edit:hover{
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.btn-delete{
+    background-color: #DC2626;
+    color: white;
+    border: none;
+    padding: 8px 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.btn-delete:hover{
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* -------------------------------------------------------- */
+/* 
+.div1{
+    width: 25%;
+    gap: 20px;
+    padding: 10px;
+}
+.btn1{
+    width: 100%;
+    background-color: #3730A3;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.cont{
+    display: flex;
+}
+
+.btn2{
+    width: 100%;
+    background-color: #a5114f;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.btn3{
+    width: 100%;
+    background-color: #16A34A;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.btn4{
+    width: 100%;
+    background-color: #dddd3f;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+} */
